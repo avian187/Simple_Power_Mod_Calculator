@@ -34,7 +34,7 @@ int main() {
                 result = (result * M[j]) % mod;
             }
         }
-        cout << "The result is: " << result << std::endl;
+        cout << "The result is: " << result << endl;
         cout << "Would you like to enter another base, exponent, and mod? (y/n): ";
         cin >> another;
     } while (another == 'y');
